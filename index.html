@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+   <!-- <meta content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'none';" http-equiv="Content-Security-Policy"/> -->
+    <meta content="Hormonal Health Hub — Interactive wellness apps for perimenopause and andropause. Created in Montreal, Canada." name="description"/>
+    <title>Horyvē</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+
+  <!-- NAV -->
+  <nav aria-label="Main navigation" class="nav" id="nav" role="navigation">
+    <div class="nav-inner">
+      <a aria-label="Horyvē home" class="nav-logo" href="#hero">
+        <span class="logo-mark">HH</span>
+        <span class="logo-wrap">
+<span class="logo-text">Horyvē</span>
+<span class="logo-tagline" data-i18n="logo_etymology"><span class="accent">hor</span> (from hormones) + <span class="accent">vē</span> (life)</span>
+ </span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link" data-i18n="about" href="#about">About</a>
+        <a class="nav-link" data-i18n="she_rimenopause" href="#she">She-rimenopause</a>
+        <a class="nav-link" data-i18n="he_andropause" href="#he">He-Andropause</a>
+        <a class="nav-link" data-i18n="features" href="#features">Features</a>
+        <a class="nav-link" data-i18n="newsletter" href="#newsletter">Newsletter</a>
+        <a class="nav-link" data-i18n="contact" href="#contact">Contact</a>
+        <button aria-label="Switch to French" class="lang-toggle" id="lang-btn">FR</button>
+      </div>
+      <button aria-expanded="false" aria-label="Open menu" class="burger" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section aria-label="Hero" class="hero" id="hero">
+    <div aria-hidden="true" class="hero-bg-color"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-i18n="hormonal_health_montreal">Hormonal Health · Built in Canada</p>
+      <h1 class="hero-title" data-i18n="your_hormones_are_changing">Your Hormones Are Changing. You Deserve Real Answers.</h1>
+      <p class="hero-sub" data-i18n="interactive_wellness_apps_for">Interactive wellness apps for perimenopause and andropause. Private, trilingual, and informed by scientific research—designed with compassion and built in Canada.</p>
+
+      <!-- ── TRUST PILLS ── -->
+      <div aria-label="Key guarantees" class="trust-row">
+    <span class="trust-pill">
+      <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><rect x="2" y="5.5" width="9" height="6.5" rx="1.2" stroke="currentColor" stroke-width="1.1"/><path d="M4 5.5V4a2.5 2.5 0 0 1 5 0v1.5" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/><circle cx="6.5" cy="8.5" r="0.8" fill="currentColor"/></svg>
+      <span data-i18n="your_data_stays_on">Your data stays on your device</span>
+    </span>
+
+        <span class="trust-pill">
+    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M1 4.2a8 8 0 0 1 11 0" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/><path d="M2.8 6.2a5.2 5.2 0 0 1 7.4 0" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/><path d="M4.6 8.2a2.6 2.6 0 0 1 3.8 0" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/><circle cx="6.5" cy="10.5" r="0.8" fill="currentColor"/></svg>
+      <span data-i18n="works_100_offline">Works 100% offline</span>
+    </span>
+
+        <span class="trust-pill">
+    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><circle cx="6.5" cy="6.5" r="5.5" stroke="currentColor" stroke-width="1.1"/><line x1="2.5" y1="2.5" x2="10.5" y2="10.5" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg>
+      <span data-i18n="no_account_needed">No account needed</span>
+    </span>
+
+        <span class="trust-pill">
+    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><circle cx="6.5" cy="6.5" r="5.5" stroke="currentColor" stroke-width="1.1"/><path d="M3.8 6.5l2 2 3.4-3.4" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span data-i18n="pay_once_yours_forever">One-time purchase. No subscription.</span>
+    </span>
+      </div>
+      <!-- END TRUST PILLS -->
+
+      <div class="hero-btns">
+        <a class="btn btn-primary" data-i18n="she_rimenopause_39" href="#she">DISCOVER SHE-RIMENOPAUSE</a>
+        <a class="btn btn-ghost" data-i18n="he_andropause_39" href="#he">DISCOVER HE-ANDROPAUSE</a>
+      </div>
+      <div aria-hidden="true" class="hero-dots">
+        <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAGLINE BAND -->
+  <section aria-label="Introduction" class="tagline-band">
+    <p class="tagline" data-i18n="i_ve_been_where_you">I'm right there with you.</p>
+    <p class="tagline-sub" data-i18n="are_you_struggling_through">Navigating a hormonal transition without clear answers can feel confusing, frustrating, and isolating. I know because I'm living it too. That's why I created these apps — to provide the support, information, and tools I wish I'd had when my symptoms began.</p>
+    <p class="tagline-label" data-i18n="good_things_i_know">HERE'S HOW I CAN HELP</p>
+    <div class="trio" role="list">
+      <div class="trio-item" role="listitem">
+        <span class="feature-icon" aria-hidden="true">⟡</span>
+        <p class="trio-title" data-i18n="symptom_tracking">Track your symptoms</p>
+        <p class="trio-desc" data-i18n="log_daily_symptoms_with">Log symptoms and spot patterns over time. Share a professional report with your healthcare provider.</p>
+      </div>
+      <div class="trio-item" role="listitem">
+        <span class="feature-icon" aria-hidden="true">⟡</span>
+        <p class="trio-title" data-i18n="doctor_reports">Understand what's happening</p>
+        <p class="trio-desc" data-i18n="generate_a_complete_printable">Educational content informed by scientific research and supported by cited sources—so you can make informed decisions.</p>
+      </div>
+      <div class="trio-item" role="listitem">
+        <span class="feature-icon" aria-hidden="true">⟡</span>
+        <p class="trio-title" data-i18n="mental_health_and_wellness">Feel better every day</p>
+        <p class="trio-desc" data-i18n="guided_breathing_meditation_mood">Guided tools for mood, stress, sleep, focus, and emotional wellbeing—all in one private app.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHE-RIMENOPAUSE: IMAGE LEFT, TEXT RIGHT -->
+  <section aria-label="She-rimenopause" class="product-block she-block" id="she">
+    <div class="pb-inner">
+
+      <div class="pb-media">
+        <div class="app-mockup she-mockup" aria-label="She-rimenopause app preview">
+          <div class="app-mockup-header she-mockup-header">
+            <span class="app-mockup-dot" aria-hidden="true"></span>
+            <span class="app-mockup-name" data-i18n="she_rimenopause_1">She-rimenopause</span>
+          </div>
+          <div class="app-mockup-body">
+            <span class="app-mockup-badge she-mockup-badge" data-i18n="todays_checkin">TODAY'S CHECK-IN</span>
+            <div class="app-mockup-row">
+              <span data-i18n="hot_flashes">Hot flashes</span>
+              <span class="app-mockup-dots" aria-hidden="true">
+              <i class="dot-fill she-dot"></i><i class="dot-fill she-dot"></i><i class="dot-empty"></i>
+            </span>
+            </div>
+            <div class="app-mockup-row">
+              <span data-i18n="sleep_quality">Sleep quality</span>
+              <span class="app-mockup-dots" aria-hidden="true">
+              <i class="dot-fill she-dot"></i><i class="dot-empty"></i><i class="dot-empty"></i>
+            </span>
+            </div>
+            <div class="app-mockup-row">
+              <span data-i18n="brain_fog">Brain fog</span>
+              <span class="app-mockup-dots" aria-hidden="true">
+              <i class="dot-fill she-dot"></i><i class="dot-fill she-dot"></i><i class="dot-fill she-dot"></i>
+            </span>
+            </div>
+            <div class="app-mockup-stage she-mockup-stage" data-i18n="stage_early_perimenopause">Stage: Early Perimenopause</div>
+            <div class="app-mockup-cta she-mockup-cta" data-i18n="generate_doctor_report">Generate Doctor Report →</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pb-copy">
+        <p class="pb-eyebrow she-color" data-i18n="for_women_perimenopause">FOR WOMEN · PERIMENOPAUSE & MENOPAUSE SUPPORT</p>
+        <h2 class="pb-title" data-i18n="she_rimenopause_1">She-rimenopause</h2>
+        <p class="pb-desc" data-i18n="you_are_not_falling">You are not falling apart. You are going through a real biological transition — and you deserve real support.</p>
+        <ul class="pb-feature-list">
+          <li data-i18n="she_feat_1">Daily symptom tracker with severity scoring</li>
+          <li data-i18n="she_feat_2">Perimenopause stage assessment</li>
+          <li data-i18n="she_feat_3">Printable doctor's report to bring to appointments</li>
+          <li data-i18n="she_feat_4">Guided breathing, meditation &amp; mental health check-ins</li>
+          <li data-i18n="she_feat_5">Hormone-friendly nutrition, recipes &amp; exercise guides</li>
+          <li data-i18n="she_feat_6">Dedicated resources for Black women and disparities in hormone care</li>
+          <li data-i18n="she_feat_7">Memory &amp; focus games for brain fog</li>
+          <li data-i18n="apps_available_three_langs">Available in English, French &amp; Spanish</li>
+        </ul>
+        <div class="pb-price">
+          <span class="price-main">$39</span>
+          <span class="price-note" data-i18n="instant_download">— Instant Download</span>
+        </div>
+        <div class="pb-btns">
+          <a class="btn btn-she" data-i18n="buy_on_payhip" href="PAYHIP_SHE_LINK_HERE" rel="noopener noreferrer" target="_blank">Buy on Payhip</a>
+          <a class="btn btn-outline-she" data-i18n="buy_on_gumroad" href="GUMROAD_SHE_LINK_HERE" rel="noopener noreferrer" target="_blank">Buy on Gumroad</a>
+          <a class="btn btn-outline-she" data-i18n="buy_on_etsy" href="ETSY_SHE_LINK_HERE" rel="noopener noreferrer" target="_blank">Buy on Etsy</a>
+        </div>
+        <p class="pb-legal" data-i18n="for_informational_purposes_only">For informational purposes only. Not a substitute for medical advice.</p>
+      </div>
+
+    </div><!-- /.pb-inner -->
+    </div>
+  </section>
+
+  <!-- HE-ANDROPAUSE: MOCKUP LEFT, TEXT RIGHT -->
+  <section aria-label="He-Andropause" class="product-block he-block" id="he">
+    <div class="pb-inner">
+
+      <div class="pb-media">
+        <!-- He-Andropause "My Performance" tracker mockup -->
+        <div class="app-mockup he-mockup" aria-label="He-Andropause app preview">
+          <div class="app-mockup-header he-mockup-header">
+            <span class="app-mockup-dot" aria-hidden="true"></span>
+            <span class="app-mockup-name" data-i18n="he_andropause_1">He-Andropause</span>
+          </div>
+          <div class="app-mockup-body">
+            <span class="app-mockup-badge he-mockup-badge" data-i18n="my_performance">MY PERFORMANCE</span>
+            <div class="app-mockup-row">
+              <span data-i18n="energy_and_drive">Energy &amp; drive</span>
+              <span class="app-mockup-dots" aria-hidden="true">
+            <i class="dot-fill he-dot"></i><i class="dot-fill he-dot"></i><i class="dot-empty"></i>
+          </span>
+            </div>
+            <div class="app-mockup-row">
+              <span data-i18n="sleep_quality">Sleep quality</span>
+              <span class="app-mockup-dots" aria-hidden="true">
+            <i class="dot-fill he-dot"></i><i class="dot-empty"></i><i class="dot-empty"></i>
+          </span>
+            </div>
+            <div class="app-mockup-row">
+              <span data-i18n="mood_and_focus">Mood &amp; focus</span>
+              <span class="app-mockup-dots" aria-hidden="true">
+            <i class="dot-fill he-dot"></i><i class="dot-fill he-dot"></i><i class="dot-empty"></i>
+          </span>
+            </div>
+            <div class="app-mockup-stage he-mockup-stage" data-i18n="stage_early_andropause">Stage: Early Andropause</div>
+            <div class="app-mockup-cta he-mockup-cta" data-i18n="generate_doctor_report">Generate Doctor Report →</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pb-copy">
+        <p class="pb-eyebrow he-color" data-i18n="for_men_andropause">FOR MEN · ANDROPAUSE & TESTOSTERONE DECLINE</p>
+        <h2 class="pb-title he-title" data-i18n="he_andropause_2">He-Andropause</h2>
+        <p class="pb-desc" data-i18n="men_experience_a_hormonal">Men experience a hormonal transition too — and almost no one talks about it. The exhaustion that sleep does not fix. The mood shifts nobody warned you about. The drop in drive that is impossible to explain. Andropause is real. It is common. And it is treatable.</p>
+        <ul class="pb-feature-list">
+          <li data-i18n="he_feat_1">Daily performance tracker: energy, mood, sleep, libido</li>
+          <li data-i18n="he_feat_2">Andropause stage assessment</li>
+          <li data-i18n="he_feat_3">Printable doctor's report with full symptom history</li>
+          <li data-i18n="he_feat_4">Testosterone nutrition guide: zinc, Vitamin D, macros</li>
+          <li data-i18n="he_feat_5">Guided breathing, meditation &amp; stress tools for men</li>
+          <li data-i18n="he_feat_6">Hormone-friendly nutrition, recipes &amp; exercise guides</li>
+          <li data-i18n="he_feat_7">Sexual &amp; urological health — clear, honest information</li>
+          <li data-i18n="he_feat_8">Memory &amp; focus games for brain fog</li>
+          <li data-i18n="apps_available_three_langs_2">Available in English, French &amp; Spanish</li>
+        </ul>
+        <div class="pb-price">
+          <span class="price-main he-price">$39</span>
+          <span class="price-note" data-i18n="instant_download_2">— Instant Download</span>
+        </div>
+        <div class="pb-btns">
+          <a class="btn btn-he" data-i18n="buy_on_payhip_2" href="PAYHIP_HE_LINK_HERE" rel="noopener noreferrer" target="_blank">Buy on Payhip</a>
+          <a class="btn btn-outline-he" data-i18n="buy_on_gumroad_2" href="GUMROAD_HE_LINK_HERE" rel="noopener noreferrer" target="_blank">Buy on Gumroad</a>
+          <a class="btn btn-outline-he" data-i18n="buy_on_etsy_2" href="ETSY_HE_LINK_HERE" rel="noopener noreferrer" target="_blank">Buy on Etsy</a>
+        </div>
+        <p class="pb-legal" data-i18n="for_informational_purposes_only_2">For informational purposes only. Not a substitute for medical advice.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUNDLE -->
+  <section aria-label="Bundle offer" class="bundle-band">
+    <p class="bundle-eyebrow" data-i18n="best_value">Best Value</p>
+    <h2 class="bundle-title" data-i18n="his_and_hers_bundle">His &amp; Hers Bundle</h2>
+    <p class="bundle-price-big">$59</p>
+    <p class="bundle-sub" data-i18n="both_apps_together_save">Both apps together — for couples, families, or anyone navigating hormonal changes. Save $19. One purchase. Two apps. Yours forever.</p>
+    <div class="bundle-btns">
+      <a class="btn btn-primary" data-i18n="get_the_bundle_on" href="PAYHIP_BUNDLE_LINK_HERE" rel="noopener noreferrer" target="_blank">Get the Bundle on Payhip</a>
+      <a class="btn btn-ghost" data-i18n="get_the_bundle_on_1" href="GUMROAD_BUNDLE_LINK_HERE" rel="noopener noreferrer" target="_blank">Get the Bundle on Gumroad</a>
+      <a class="btn btn-ghost" data-i18n="get_the_bundle_on_2" href="ETSY_BUNDLE_LINK_HERE" rel="noopener noreferrer" target="_blank">Get the Bundle on Etsy</a>
+    </div>
+  </section>
+
+  <!-- FEATURES: "It's All So Easy" alternating blocks -->
+  <section aria-label="App features" class="features-section" id="features">
+    <div class="features-header">
+      <h2 class="features-title" data-i18n="it_s_all_so_easy">Understanding Changes Everything</h2>
+      <p class="features-sub" data-i18n="so_grab_some_coffee">Science. Clarity. Real support.</p> <!--subhead line -->
+    </div>
+    <!-- ROW 1: image left, text right -->
+    <div class="feat-row">
+      <div class="feat-img-wrap">
+        <div aria-label="Add tablet or phone mockup showing the symptom tracker" class="feat-img-ph" role="img">
+          <img src="she-1.png" alt="" class="feat-img">
+        </div>
+      </div>
+      <div class="feat-copy">
+        <p class="feat-eyebrow" data-i18n="just_you_and_the">PRIVATE BY DESIGN</p> <!--eyebrow-->
+        <h3 class="feat-title" data-i18n="track_every_symptom_every">Track Symptoms. Spot Patterns.</h3>
+        <p class="feat-desc" data-i18n="log_hot_flashes_brain">Track hot flashes, brain fog, mood changes, sleep quality, energy, anxiety, and more with severity scoring. Over time, the app helps you identify patterns and build a clear picture of your hormonal health. Your data stays on your device—private, secure, and never shared.</p>
+        <a class="btn-text-link she-color" data-i18n="learn_more_about_she_rimenopause" href="#she">LEARN MORE ABOUT SHE-RIMENOPAUSE</a>
+      </div>
+    </div>
+    <!-- ROW 2: text left, image right -->
+    <div class="feat-row feat-row-rev">
+      <div class="feat-copy">
+        <p class="feat-eyebrow" data-i18n="tailor_made_for_you">BUILT FOR REAL APPOINTMENTS</p>
+        <h3 class="feat-title" data-i18n="generate_your_doctor_report">Turn Your Symptoms Into a Clear Doctor's Report</h3>
+        <p class="feat-desc" data-i18n="stop_forgetting_what_you">Stop trying to remember everything at your appointment. The app turns your tracked symptoms into a professional, printable report that helps you explain what you've been experiencing. Arrive informed, prepared, and ready to have a more productive conversation with your healthcare provider.</p>
+        <a class="btn-text-link she-color" data-i18n="learn_more_about_she_rimenopause_1" href="#she">Learn More About She-rimenopause</a>
+      </div>
+      <div class="feat-img-wrap">
+        <!-- REPLACE with: <img src="feature2.jpg" alt="" class="feat-img"> -->
+        <div aria-label="Add mockup showing doctor report feature" class="feat-img-ph" role="img">
+          <span class="fph-icon">📋</span>
+          <p class="fph-hint" data-i18n="add_doctor_report_mockup">Add doctor report mockup here</p>
+        </div>
+      </div>
+    </div>
+    <!-- ROW 3: image left, text right -->
+    <div class="feat-row">
+      <div class="feat-img-wrap">
+        <!-- REPLACE with: <img src="feature3.jpg" alt="" class="feat-img"> -->
+        <div aria-label="Add mockup showing mental health and wellness tools" class="feat-img-ph" role="img">
+          <span class="fph-icon">🧠</span>
+          <p class="fph-hint" data-i18n="add_mental_health_tools">Add mental health tools mockup here</p>
+        </div>
+      </div>
+      <div class="feat-copy">
+        <p class="feat-eyebrow" data-i18n="your_unique_wellness_story">SUPPORT FOR EVERY PART OF YOU</p>
+        <h3 class="feat-title" data-i18n="mind_body_and_mental">Tools for Mind, Body & Emotional Wellbeing</h3>
+        <p class="feat-desc" data-i18n="guided_breathing_meditation_techniques">Guided breathing, meditation, mood check-ins, affirmations, memory and focus exercises, nutrition guidance, recipes, movement plans, sleep support, and stress-management tools. Everything is designed to help you feel more balanced, informed, and supported throughout your hormonal transition. Fully offline. No account required.</p>
+        <a class="btn-text-link he-color" data-i18n="learn_more_about_he_andropause" href="#he">Learn More About He-Andropause</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY TRUST US: full banner + 01-06 list + image -->
+  <section aria-label="Why trust these apps" class="wid-section">
+    <div aria-hidden="false" class="wid-banner">
+      <!-- REPLACE with: <img src="banner.jpg" alt="" class="wid-banner-img"> -->
+      <div aria-label="Add full-width lifestyle photo here" class="wid-banner-ph">
+      </div>
+      <div class="wid-banner-overlay">
+        <p class="wid-banner-eyebrow" data-i18n="your_wellness_companion">Your Wellness Companion</p>
+        <h2 class="wid-banner-title" data-i18n="finally_understand_what_is">Finally understand what's happening in your body — and stop guessing.</h2>
+        <p class="wid-banner-sub" data-i18n="science_based_tools_no_subscriptions">Tools informed by scientific research. No subscriptions. No accounts. Your data stays on your device. Works offline. Always.</p>
+        <a class="btn btn-primary" data-i18n="get_started_39" href="#she">Get Started - $39</a>
+      </div>
+    </div>
+    <div class="wid-inner">
+      <div class="wid-list-col">
+        <h3 class="wid-list-title" data-i18n="why_you_should_work">WHY THIS IS DIFFERENT</h3>
+        <p class="wid-list-label" data-i18n="its_all_true">BUILT ON REAL EXPERIENCE AND SCIENCE-BASED INFORMATION</p>
+        <div class="num-list" role="list">
+          <div class="num-item" role="listitem">
+            <span class="num-n">01</span>
+            <span data-i18n="built_by_someone_who">Created by someone living through hormonal changes — not a corporation. Built from real experience and real needs.</span>
+          </div>
+          <div class="num-item" role="listitem">
+            <span class="num-n">02</span>
+            <span data-i18n="all_content_backed_by">Science-backed content with cited sources.</span>
+          </div>
+          <div class="num-item" role="listitem">
+            <span class="num-n">03</span>
+            <span data-i18n="your_data_is_saved">Your data stays on your device. No cloud. No servers. No data collection.</span>
+          </div>
+          <div class="num-item" role="listitem">
+            <span class="num-n">04</span>
+            <span data-i18n="works_completely_offline">Works entirely offline. No Wi-Fi. No internet connection required.</span>
+          </div>
+          <div class="num-item" role="listitem">
+            <span class="num-n">05</span>
+            <span data-i18n="no_account_no_subscription_2">No account. No subscription. No recurring fees. Pay once and use it forever.</span>
+          </div>
+          <div class="num-item" role="listitem">
+            <span class="num-n">06</span>
+            <span data-i18n="apps_available_in_three">Available in English, French, and Spanish.</span>
+          </div>
+        </div>
+        <p class="wid-cta-line" data-i18n="have_i_got_your_1">Ready to understand your symptoms and feel more informed?</p>
+        <a class="btn btn-she-sm" data-i18n="don_t_wait_do" href="#she">EXPLORE THE APPS</a>
+      </div>
+      <div class="wid-img-col">
+        <!-- REPLACE with: <img src="lifestyle.jpg" alt="" class="wid-img"> -->
+        <div aria-label="Add lifestyle photo here" class="wid-img-ph" role="img">
+          <span class="fph-icon">🌿</span>
+          <p class="fph-hint" data-i18n="add_lifestyle_photo_here">Add lifestyle photo here</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section aria-label="About the creator" class="about-section" id="about">
+    <div class="about-inner about-inner-reversed">
+
+      <div class="about-media about-collage">
+        <div class="about-photo about-photo-main">
+            <img src="p1.jpg" alt="Founder portrait">
+        </div>
+
+        <div class="about-photo about-photo-overlap">
+          <img src="p7.jpg" alt="Founder portrait">
+        </div>
+        <!-- Later, replace the placeholders with images like this:
+        <div class="about-photo about-photo-main">
+        <img src="your-photo-1.jpg" alt="Founder portrait">
+        </div>
+        <span class="about-initials">Photo 1</span>
+          <span class="about-initials">Photo 2</span>
+        -->
+      </div>
+      <div class="about-copy">
+        <p class="about-eyebrow" data-i18n="s_says">A MESSAGE FROM STA-ËLLE:</p>
+        <h2 class="about-title" data-i18n="she_built_this_because">The Support I Couldn't Find.</h2>
+        <p class="about-text" data-i18n="i_entered_perimenopause_at">I entered perimenopause at 39 — far earlier than most women are told to expect. When the symptoms began, I had no idea what was happening to me. The brain fog. The nights drenched in sweat. The sudden anxiety. The tingling skin sensations. The back pain. The mood swings. It wasn't until I was 41 that I finally understood these symptoms had a name.</p>
+        <p class="about-text" data-i18n="learn_more">As I learned more, I discovered that many women experience perimenopause earlier than they expect — and that research suggests Black women may experience perimenopause earlier and often spend more years in the transition than White women. As a Black woman myself, that was something I had never been told. Looking back, I wish I had known sooner.</p>
+        <p class="about-text" data-i18n="my_friends_were_going">My friends and family were going through similar experiences too, and like me, they wished they had someone to guide them through it. No one had warned us that perimenopause could begin this early. We were all searching for answers and support that seemed impossible to find.</p>
+        <p class="about-text" data-i18n="then_i_saw_the">Then I realized women weren't the only ones searching for answers. Men were struggling too — with exhaustion, brain fog, changes in mood and motivation, and a growing sense that something wasn't right. Yet very few people were talking about it.</p>
+        <p class="about-text" data-i18n="the_birth_of_he_andropause">That's why I created He-Andropause — to provide the same clarity, understanding, and support that I wished had existed for me.</p>
+        <blockquote class="about-quote" data-i18n="you_are_not_alone">"You are not alone. You are not being dramatic. You are not falling apart. You are experiencing one of the most powerful biological transitions the human body can go through — and you deserve real support."</blockquote>
+        <p class="about-sig" data-i18n="the_founder_hormonal">— The Founder · Horyvē · Montreal, Canada</p>
+      </div>
+      <!--  <span class="reviews-tag" data-i18n="the_reviews">THE REVIEWS</span> -->
+    </div>
+  </section>
+ <!--  REVIEWS  WHEN I HAVE REAL REVIEWS I WILL BRING THEM HERE
+  <section aria-label="Customer reviews" class="reviews-section">
+    <div class="reviews-inner">
+      <p class="reviews-eyebrow" data-i18n="what_people_are_saying">What People Are Saying</p>
+      <h2 class="reviews-title" data-i18n="real_stories">Real Stories.</h2>
+      <div class="reviews-grid" role="list">
+        <div class="review-card" role="listitem">
+          <div aria-label="5 stars" class="stars">★★★★★</div>
+          <p class="review-text" data-i18n="i_finally_understood_what">"I finally understood what was happening to me. The doctor report feature alone is worth every cent — my doctor took me seriously for the first time."</p>
+          <p class="review-name">— ADD CUSTOMER NAME HERE</p>
+        </div>
+        <div class="review-card" role="listitem">
+          <div aria-label="5 stars" class="stars">★★★★★</div>
+          <p class="review-text" data-i18n="i_love_that_my">"I love that my data stays on my phone. No account, no subscription, no one snooping. It just works. Even without wifi."</p>
+          <p class="review-name">— ADD CUSTOMER NAME HERE</p>
+        </div>
+        <div class="review-card" role="listitem">
+          <div aria-label="5 stars" class="stars">★★★★★</div>
+          <p class="review-text" data-i18n="my_husband_and_i">"My husband and I bought the bundle. We finally understand what the other is going through. This changed everything in our house."</p>
+          <p class="review-name">— ADD CUSTOMER NAME HERE</p>
+        </div>
+      </div>
+      <p class="reviews-note"><em data-i18n="replace_these_with_real">Replace these with real customer reviews when you receive them.</em></p>
+    </div>
+  </section> -->
+
+      <!-- TRUST CARDS / WHY HORYVĒ IS DIFFERENT -->
+      <section aria-label="Why Horyvē is different" class="proof-section">
+        <div class="proof-inner">
+          <p class="proof-eyebrow" data-i18n="why_horyve_different_eyebrow">WHY HORYVĒ IS DIFFERENT</p>
+          <h2 class="proof-title" data-i18n="why_horyve_different_title">Built on Trust, Privacy & Real Support.</h2>
+
+          <div class="proof-card-grid" role="list">
+            <article class="proof-card" role="listitem">
+              <div class="proof-card-icon" aria-hidden="true">01</div>
+              <h3 data-i18n="created_from_lived_experience_title">Created from Lived Experience</h3>
+              <p data-i18n="created_from_lived_experience_text">
+                Built by someone currently living through perimenopause and creating the support she could not find when her symptoms began.
+              </p>
+            </article>
+
+            <article class="proof-card" role="listitem">
+              <div class="proof-card-icon" aria-hidden="true">02</div>
+              <h3 data-i18n="private_by_design_title">Private by Design</h3>
+              <p data-i18n="private_by_design_text">
+                No account. No subscription. No cloud storage. Your information stays on your device.
+              </p>
+            </article>
+
+            <article class="proof-card" role="listitem">
+              <div class="proof-card-icon" aria-hidden="true">03</div>
+              <h3 data-i18n="science_based_information_title">Science-Based Information</h3>
+              <p data-i18n="science_based_information_text">
+                Educational content informed by published research and trusted health sources, presented in a clear and accessible way.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+  <!-- NEWSLETTER -->
+  <section aria-label="Newsletter signup" class="nl-section" id="newsletter">
+    <div class="nl-inner">
+      <p class="nl-eyebrow" data-i18n="stay_connected">Stay Connected</p>
+      <h2 class="nl-title" data-i18n="free_hormonal_health_tips">Be the First to Know What's Coming Next.</h2>
+      <p class="nl-sub" data-i18n="no_spam_science_based_guidance">Occasional updates about new Horyvē apps, resources, product launches, and future projects. No spam. Unsubscribe anytime.</p>
+      <!-- PASTE YOUR BREVO OR MAILCHIMP EMBED CODE HERE - replace the div below -->
+      <div class="nl-ph">
+        <p class="nl-ph-text" data-i18n="paste_your_brevo_or">Paste your Brevo or Mailchimp newsletter embed code here. Sign up free at brevo.com or mailchimp.com to get your code.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section aria-label="Contact and social links" class="contact-section" id="contact">
+    <div class="contact-inner">
+      <p class="contact-eyebrow" data-i18n="find_me_online">Connect With Me</p>
+      <h2 class="contact-title" data-i18n="let_s_stay_in_touch">Let's Stay in Touch.</h2>
+      <div aria-label="Shop and social links" class="social-grid" role="list">
+        <a aria-label="Pinterest" class="social-card" href="PINTEREST_LINK_HERE" rel="noopener noreferrer" role="listitem" target="_blank"><span class="s-icon">P</span><span class="s-name">Pinterest</span></a>
+        <a aria-label="Instagram" class="social-card" href="INSTAGRAM_LINK_HERE" rel="noopener noreferrer" role="listitem" target="_blank"><span class="s-icon">IG</span><span class="s-name">Instagram</span></a>
+        <a aria-label="LinkedIn" class="social-card" href="LINKEDIN_LINK_HERE" rel="noopener noreferrer" role="listitem" target="_blank"><span class="s-icon">in</span><span class="s-name">LinkedIn</span></a>
+        <a aria-label="Payhip" class="social-card" href="PAYHIP_STORE_LINK_HERE" rel="noopener noreferrer" role="listitem" target="_blank"><span class="s-icon">PH</span><span class="s-name">Payhip</span></a>
+        <a aria-label="Gumroad" class="social-card" href="GUMROAD_STORE_LINK_HERE" rel="noopener noreferrer" role="listitem" target="_blank"><span class="s-icon">GR</span><span class="s-name">Gumroad</span></a>
+        <a aria-label="Etsy" class="social-card" href="ETSY_STORE_LINK_HERE" rel="noopener noreferrer" role="listitem" target="_blank"><span class="s-icon">Et</span><span class="s-name">Etsy</span></a>
+      </div>
+      <div class="contact-email-row">
+        <p class="contact-label" data-i18n="questions_collaborations_licensing_reach">Questions? Collaborations? Licensing? Reach out directly:</p>
+        <a class="btn btn-outline-dark" href="mailto:YOUR_EMAIL_HERE">
+          <span data-i18n="contact_me">Contact Me</span>
+          <span class="btn-email">YOUR_EMAIL_HERE</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-brand">Horyvē</p>
+      <p class="footer-loc" data-i18n="created_with_care_in">Created with care in Montreal, Canada</p>
+      <p class="footer-legal" data-i18n="all_apps_are_for">All apps are for informational and educational purposes only and are not a substitute for professional medical advice. Your data is stored locally on your device only and is never transmitted to any server.</p>
+    </div>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="main.js"></script>
+  </body>
+  </html>
