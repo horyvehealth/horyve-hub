@@ -1,4 +1,4 @@
-# Hormonal Health Hub — Website
+# Horyvē Hub — Website
 
 Bilingual (English/French) one-page website for She-rimenopause & He-Andropause.
 Created in Montreal, Canada.
@@ -62,7 +62,7 @@ index.html for text changes.
 5. His & Hers Bundle — $57, dark band
 6. "It's All So Easy" — 3 alternating feature rows (image/text)
 7. "Why You Should Work With Me" — full banner + numbered 01-06 list + image
-8. About (Monique's story) — text + photo placeholder
+8. About (Staëlle's story) — text + photo placeholder
 9. Reviews — 3 placeholder testimonials
 10. Newsletter signup placeholder (Brevo/Mailchimp)
 11. Contact + social links grid
